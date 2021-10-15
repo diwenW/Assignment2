@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"> </script>
+    <title>Assignment2</title>
+</head>
+<body>
+<ul id = "task_list"></ul>
+<form id = "new-task">
+    <input class = "task" id = "task" autocomplete="off" autofocus placeholder="New Task" type = "text">
+    <p>Priority</p>
+    <select name = "priority" id = "priority">
+        <option value="low">low</option>
+        <option value="medium">medium</option>
+        <option value="high">high</option>
+    </select>
+    <p>Status</p>
+    <input class = "task-status" name = "task-status" type = "radio" value = "pending"> Pending
+    <input class = "task-status" name = "task-status" type = "radio" value = "completed"> Completed
+    <input id = "submit" type = "submit">
+</form>
+</body>
+</html>
